@@ -1,0 +1,19 @@
+{
+  "name": "miniviewer3d",
+  "version": "0.0.1",
+  "description": "Web Viewer for scs files",
+  "main": "index.js",
+  "author": "pcu",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.0",
+    "prettier": "^2.6.0"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "http-server"
+  },
+  "dependencies": {
+    "mobile-detect": "^1.4.5"
+  }
+}
